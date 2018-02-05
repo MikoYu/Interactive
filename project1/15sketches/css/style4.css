@@ -18,9 +18,9 @@ body {
   margin: 5vw;
   background-color: #BFF4ED;
   border-bottom: 8vw solid #B30753;
-	border-right: 8vw solid transparent;
+  border-right: 8vw solid transparent;
   float: left;
-  mix-blend-mode: overlay;
+  mix-blend-mode: overlay;  
 }
 
 .rect_right div {
