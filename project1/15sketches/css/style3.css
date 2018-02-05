@@ -1,0 +1,73 @@
+body {
+  background-color: #280F34;
+  margin: 0;
+}
+
+.rect1 {
+  position: relative;
+}
+
+.rect1 div {
+  height: 15vw;
+  width: 15vw;
+  margin: 17vw;
+  background-color: #BFF4ED;
+  float: left;
+}
+
+.rect2 {
+  position: absolute;
+}
+
+.rect2 div {
+  height: 10vw;
+  width: 12vw;
+  margin: 8vw 24vw;
+  background-color: #B30753ad;
+  float: left;
+}
+
+.layer {
+  position: absolute;
+}
+
+.line_h {
+  position: relative;
+  float: left;
+  margin: 20vw 15vw;
+}
+
+.line_h div {
+  position: relative;
+  width: 12vw;
+  height: 1vh;
+  border-bottom: 1.5px solid #FFFEE6;
+}
+
+.line_v {
+  position: relative;
+  float: left;
+  margin: 20vw 15vw;
+}
+
+.line_v div{
+  margin-top: 3vw;
+  position: relative;
+  float: left;
+  width: 1.5vw;
+  height: 12vw;
+  border-right: 1.5px solid #FFFEE6;
+}
+
+.cross {
+  position: fixed;
+}
+.cross div:after{
+  display: inline-block;
+  content: "\00d7"; /* This will render the 'X' */
+  color: #FFFEE6;
+  transform: scale(10);
+  float: left;
+  margin: 15vw;
+  margin-top: 10vw;
+}

@@ -1,0 +1,62 @@
+body {
+  background-color: #280F34;
+  margin: 0;
+  height: 150vh
+}
+
+.layer {
+  position: fixed;
+}
+
+.rect {
+  position: relative;
+}
+
+.rect div {
+  height: 0vw;
+  width: 0vw;
+  margin: 5vw;
+  background-color: #BFF4ED;
+  border-bottom: 8vw solid #B30753;
+	border-right: 8vw solid transparent;
+  float: left;
+}
+
+.rect_right div {
+  height: 0vw;
+  width: 0vw;
+  margin: 5vw;
+  background-color: #F2F4F7;
+  border-bottom: 8vw solid transparent;
+  border-left: 8vw solid #E43A19;
+  float: right;
+}
+
+.circles {
+  position: relative;
+}
+
+.circles div{
+  height: 2vw;
+  width: 2vw;
+  background-color: #fffee69e;
+  border-radius: 50%;
+  margin: 12vw 2vw 6vw 12vw;
+}
+
+.circles_right div {
+  height: 2vw;
+  width: 2vw;
+  margin: 12vw 2vw 6vw 12vw;
+  background-color: #01050c5c;
+  border-radius: 0 50% 0 50%;
+  float: right;
+}
+
+.left div{
+  float: left;
+}
+
+.right div{
+  float: right;
+}

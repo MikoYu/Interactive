@@ -1,0 +1,31 @@
+body {
+  background-color: lightblue;
+}
+
+#squares div {
+  height: 10vw;
+  width: 10vw;
+  background-color: tomato;
+  margin: 2vw;
+  float: right;
+}
+
+#squares .blue {
+  background-color: #03a9f4;
+}
+
+#squares #yellow {
+  background-color: #ffeb3b;
+}
+
+#circles {
+  position: absolute;
+}
+#circles div{
+  height: 3vw;
+  width: 3vw;
+  background-color: #4caf50;
+  border-radius: 50%;
+  margin: 10vw;
+  float: right;
+}

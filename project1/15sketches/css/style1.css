@@ -1,0 +1,43 @@
+body {
+  background-color: lightblue;
+  height: 5vh;
+  margin: 0 0 150vh 0;
+  padding: 20px;
+}
+
+br {
+  display: block;
+  line-height:3vw;
+}
+
+p {
+  margin: auto;
+  right: 2vw;
+  position: fixed;
+}
+
+.circles_1 {
+  position: fixed;
+}
+
+.circles_1 div {
+  height: 5vw;
+  width: 5vw;
+  background-color: #00bcd475;
+  border-radius: 50%;
+  margin: 2.5vw;
+  float: right;
+}
+
+.circles_2 {
+  position: absolute;
+}
+
+.circles_2 div {
+  height: 5vw;
+  width: 5vw;
+  background-color: #ff63477a;
+  border-radius: 50%;
+  margin: 2.5vw;
+  float: right;
+}
