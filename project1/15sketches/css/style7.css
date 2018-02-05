@@ -5,17 +5,15 @@ body {
   background-color: #280f34c7;
   margin: 0;
   margin-right: -50vw;
-  margin-top: -20vh;
+  margin-top: -50vh;
+}
+
+.container {
+  /* position: relative; */
+
 }
 
 .lemon {
-  /* position: relative; */
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-
-.lemon div{
   margin: 80px;
   width: 200px;
   height: 200px;
@@ -23,11 +21,12 @@ body {
   /* border: 4px solid #FFF150; */
   border-radius: 20px 140px 40px 140px;
   box-shadow: 8px 0 0 4px #827f3f61;
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
   position: relative;
   top: 10vh;
   float:left;
+
 
 }
