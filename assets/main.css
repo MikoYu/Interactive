@@ -6,6 +6,29 @@ body {
   padding: 40px;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: 20% auto;
+}
+
+/* .grid-container {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+#left-column {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15vw;
+}
+
+#right-column {
+  position: relative;
+  margin: auto;
+}
+
 .sec{
   background-color: #FFD8D8;
   width: 80%;
@@ -28,7 +51,7 @@ h1, h2, a{
   font-family: 'Open Sans', sans-serif;
 }
 
-h1 {
+h2 {
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
@@ -42,7 +65,7 @@ h1 {
   text-shadow: 2px 2px #50595c66;
 }
 
-h2 {
+h3 {
   font-weight: normal;
 
 }
@@ -63,5 +86,25 @@ hr {
   background-color: #9E9E9E44;
   height: 1px;
   margin: 40px auto 20px auto;
+}
 
+div .img-titles {
+  text-align: center;
+}
+
+.img-titles {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-titles img {
+  width:12%;
+  height:auto;
+  border:0;
+  margin: 3%;
+  box-shadow: 2px 2px 5px #50595c26;
+}
+
+.img-titles img:hover {
+  -webkit-filter: hue-rotate(240deg) saturate(5);
 }
