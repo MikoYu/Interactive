@@ -108,3 +108,11 @@ div .img-titles {
 .img-titles img:hover {
   -webkit-filter: hue-rotate(240deg) saturate(5);
 }
+
+.image-full {
+  width: 80%;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
