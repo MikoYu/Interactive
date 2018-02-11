@@ -1,0 +1,48 @@
+body {
+  background-color: #280F34;
+  margin: 0;
+}
+
+.scales {
+  position: relative;
+}
+
+.scales div {
+  width: 8vw;
+  height: 10vh;
+  background-color: #BFF4ED66;
+  margin-top: -8vh;
+  border-radius: 50% 50% 0 0;
+}
+
+.left div {
+  float: left;
+}
+
+.right div {
+  float: right;
+}
+
+#color1 {
+  background-color: #B30753;
+}
+
+#color2 {
+  background-color: #fffee6;
+}
+
+@keyframes fade{
+  from {
+    background-color: #BFF4ED66;
+    opacity: 100;
+  }
+  to {
+    background-color: #000000;
+    opacity: 0;
+  }
+}
+
+.scales div:hover {
+  animation-name: fade;
+  animation-duration: 2s;
+}

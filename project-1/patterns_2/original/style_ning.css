@@ -1,0 +1,34 @@
+body {
+  background-color: #6729ff;
+  margin: inherit;
+}
+
+
+#triangle div{
+	width: 0;
+	height: 0;
+	border-bottom: 10vw solid #5803ff;
+	border-left: 10vw solid transparent;
+  float: left;
+}
+
+
+#circle2 div {
+  height: 6vw;
+  width: 6vw;
+  border-radius: 50%;
+  background-color: #ffeb60;
+  margin-left: 4vw;
+  margin-bottom: 4vw;
+  float: left;
+
+}
+
+#circle2 {
+  mix-blend-mode: color-burn;
+  margin-top: 2vw;
+  margin-left: -2vw;
+  position: fixed;
+
+
+}

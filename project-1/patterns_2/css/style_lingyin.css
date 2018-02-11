@@ -1,0 +1,19 @@
+body{
+  background:  linear-gradient(135deg, #66578c, #f5756c,#f6c277);
+
+}
+
+#diamond div{
+  width: 0;
+  height: 0;
+  border-left: 300px solid transparent;
+  border-right: 300px solid transparent;
+  border-bottom: 1000px solid white;
+  opacity: 0.2;
+  float: left;
+  margin: 0px -197px 0px -300px;
+}
+
+#diamond:hover {
+  display: none;
+}

@@ -1,0 +1,95 @@
+body{
+	margin: 0;
+	background-color: white;
+	height: 150vh;
+	overflow-x: hidden;
+}
+
+@keyframes move {
+	from{
+		transform: rotate(-90deg);
+	}
+	to {
+		transform: rotate(90deg);
+	}
+}
+
+#squares {
+	margin: -60vh -60vw -60vh -60vw;
+	animation-name: move;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+#squares div{
+	height: 10vw;
+	width: 10vw;
+	background-color: #89ff00;
+	margin: 2vw;
+	float: right;
+	border-radius: 50%;
+}
+
+#squares .blue {
+	height: 20vw;
+	width: 20vw;
+}
+
+#squares #yellow {
+	height: 5vw;
+	width: 5vw;
+}
+
+#halfCircleRight{
+	height: 120vh;
+	width: 120vw;
+	margin: 0;
+	position: absolute;
+	clear: both;
+	mix-blend-mode: overlay;
+	bottom: 0;
+}
+
+#halfCircleRight div{
+	width:100px;
+	height:100px;
+	background: #ff007a;
+	border-radius: 0 90px 0 0;
+	float:left;
+}
+
+#halfCircleRight #halfCircleLeft {
+	border-radius: 0 0 0 90px;
+}
+
+@keyframes zoom {
+	from {
+		height: 2vw;
+		width: 2vw;
+		margin: 5vw;
+	}
+	to {
+		height: 4vw;
+		width: 4vw;
+		margin: 4vw;
+	}
+}
+
+#circles {
+	width: 110vw;
+	position: fixed;
+	top: -5vw;
+	left: -5vw;
+}
+
+#circles div {
+	background-color: #f2eb00;
+	border-radius: 50%;
+	float: left;
+	animation-name: zoom;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: linear;
+}

@@ -1,0 +1,106 @@
+body {
+  background-color: #3066BE;
+}
+
+@keyframes blink {
+  from {
+    background-color:#B4C5E4;
+  }
+  to {
+    background-color: #ffffff;
+  }
+}
+
+#moon_1 {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  clear: both;
+}
+
+#moon_1 div {
+  width: 20vw;
+  height: 10vw;
+  border-radius: 50%;
+  background-color:  #B4C5E4;
+  display: block;
+  margin: 5vw;
+  float: left;
+  transform: rotate(45deg);
+}
+
+#moon_1 div:hover {
+  animation-name: blink;
+  animation-duration: 100ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+#moon_1 #rotate {
+  width: 30vw;
+  height: 29vw;
+  transform: rotate(135deg);
+  background-color: #FE5F55;
+
+}
+
+@keyframes rotate_2 {
+  from {
+    transform: rotate(20deg);
+  }
+  to {
+    transform: rotate(200deg);
+  }
+}
+
+@keyframes rotate_3 {
+  from {
+    transform: rotate(200deg);
+  }
+  to {
+    transform: rotate(-20deg);
+  }
+}
+
+#moon_2 {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  clear: both;
+}
+
+#moon_2 div {
+  width: 50 vw;
+  height: 50vw;
+  border-radius: 50%;
+  box-shadow: 15px 15px 0 0 #FFADC6;
+  display: block;
+
+  transform: rotate(20deg);
+  animation-name: rotate_2;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+}
+
+#moon_3 {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  clear: both;
+}
+
+#moon_3 div {
+  width: 50 vw;
+  height: 50vw;
+  border-radius: 50%;
+  box-shadow: 15px 15px 0 0 #DDA3B2;
+  display: block;
+
+  transform: rotate(-20deg);
+  animation-name: rotate_3;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}

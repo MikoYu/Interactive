@@ -1,0 +1,62 @@
+body {
+  background-color: #6729ff;
+  margin: inherit;
+  position: absolute;
+}
+
+#triangle div{
+  width: 0;
+  height: 0;
+  border-bottom: 10vw solid #5803ff;
+  border-left: 10vw solid transparent;
+  float: left;
+}
+
+#circle2 div {
+  height: 6vw;
+  width: 6vw;
+  border-radius: 50%;
+  background-color: #ffeb60;
+  margin-left: 4vw;
+  margin-bottom: 4vw;
+  float: left;
+}
+
+@keyframes turnred {
+  0% {
+    background-color: #ffeb60;
+  }
+  100% {
+    background-color: red;
+  }
+}
+
+#circle2 div {
+  animation-name: turnred;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: backwards;
+  animation-play-state: paused;
+}
+
+#circle2 div:active,
+#circle2 div:focus,
+#circle2 div:hover {
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+
+/* #circle2 div:hover {
+  animation-name: turnred;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+} */
+
+#circle2 {
+  mix-blend-mode: color-burn;
+  margin-top: 2vw;
+  margin-left: -2vw;
+  position: fixed;
+}

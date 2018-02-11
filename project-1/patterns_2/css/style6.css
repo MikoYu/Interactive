@@ -1,0 +1,81 @@
+body {
+  background-color: #27B1BE;
+  margin: -18vw 0 0 -10vw;
+}
+
+/* #27B1BE #FACC2E #ECECEC #F5F5F5 */
+
+.scales {
+  float: left;
+  transform: scale(2, 2);
+}
+
+.scales div {
+  position: fixed;
+  border: 1vw solid #ECECEC;
+}
+
+.top {margin: 10vw 20vw 0 5vw;}
+.top div {border-bottom: 0;}
+.bottom {margin: 24vw 20vw 0 5vw;}
+.bottom div {
+  transform: rotate(180deg);
+  margin-top: 0;
+  border-bottom: 0;
+}
+
+.scl1 {
+  width: 20vw;
+  height: 10vw;
+  border-top-left-radius: 11vw;
+  border-top-right-radius: 11vw;
+  background-color: #FACC2E88;
+}
+
+.scl2 {
+  width: 16vw;
+  height: 8vw;
+  margin: 2vw 2vw 0 2vw;
+  border-top-left-radius: 9vw;
+  border-top-right-radius: 9vw;
+  background-color: #FACC2E88;
+}
+
+.scl3 {
+  width: 12vw;
+  height: 6vw;
+  margin: 4vw 4vw 0 4vw;
+  border-top-left-radius: 7vw;
+  border-top-right-radius: 7vw;
+  background-color: #FACC2E88;
+}
+
+.scl4 {
+  width: 8vw;
+  height: 4vw;
+  margin: 6vw 6vw 0 6vw;
+  border-top-left-radius: 5vw;
+  border-top-right-radius: 5vw;
+  background-color: #FACC2E88;
+}
+
+.rect {
+  position: fixed;
+  margin: 0;
+  top: 0;
+  float: 2;
+}
+
+.rect div {
+  width: 150vw;
+  height: 10vh;
+  margin-left: -20vw;
+  margin-top: 10vh;
+  background-color: #27B1BE;
+  transform: rotate(30deg);
+  opacity: 0;
+}
+
+.rect div:hover {
+  opacity: 20;
+}
