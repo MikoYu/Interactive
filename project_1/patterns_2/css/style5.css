@@ -1,6 +1,7 @@
 body {
   background-color: #280F34;
   margin: 0;
+  transform: scale(1.2);
 }
 
 .scales {
@@ -33,14 +34,18 @@ body {
 
 @keyframes fade{
   from {
-    background-color: #BFF4ED66;
-    opacity: 100;
+    background-color: #b2ddd5;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: -6vh;
   }
   to {
     background-color: #000000;
-    opacity: 0;
   }
 }
+
+/* #color1:hover, #color2:hover {
+  transition: scale(1.5);
+} */
 
 .scales div:hover {
   animation-name: fade;
