@@ -494,7 +494,7 @@ img {
 
 /*---------------27---------------*/
 /* #button-27 {
-  background-color: #ffffff;
+background-color: #ffffff;
 } */
 
 #button-27 div {
@@ -505,776 +505,772 @@ img {
   top: 0;
   bottom: 0;
   position: absolute; */
-background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
-background-size: 1800% 1800%;
+  background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+  background-size: 1800% 1800%;
 
--webkit-animation: rainbow 18s ease infinite;
--z-animation: rainbow 18s ease infinite;
--o-animation: rainbow 18s ease infinite;
+  -webkit-animation: rainbow 18s ease infinite;
+  -z-animation: rainbow 18s ease infinite;
+  -o-animation: rainbow 18s ease infinite;
   animation: rainbow 18s ease infinite;}
 
-@-webkit-keyframes rainbow {
+  @-webkit-keyframes rainbow {
     0%{background-position:0% 82%}
     50%{background-position:100% 19%}
     100%{background-position:0% 82%}
-}
-@-moz-keyframes rainbow {
+  }
+  @-moz-keyframes rainbow {
     0%{background-position:0% 82%}
     50%{background-position:100% 19%}
     100%{background-position:0% 82%}
-}
-@-o-keyframes rainbow {
+  }
+  @-o-keyframes rainbow {
     0%{background-position:0% 82%}
     50%{background-position:100% 19%}
     100%{background-position:0% 82%}
-}
-@keyframes rainbow {
+  }
+  @keyframes rainbow {
     0%{background-position:0% 82%}
     50%{background-position:100% 19%}
     100%{background-position:0% 82%}
-}
-
-/*---------------28---------------*/
-#button-28 {
-  background-color: #ffffff;
-}
-
-#vibr:active {
-  animation: fluidDrop 2s infinite alternate;
-}
-
-@keyframes fluidDrop {
-  from {
-    /* top: 0px; */
-    animation-timing-function: cubic-bezier(0.7, 0.22, 0.725, 0.61);
-  }
-  13.33% {
-    top: 31.79px;
-    animation-timing-function: cubic-bezier(0.16, 0.1875, 0.24, 0.094);
-  }
-  23.66% {
-    top: 88.3px;
-    animation-timing-function: cubic-bezier(0.234, 0.15, 0.88, 0.85);
-  }
-  65% {
-    top: 441.5px;
-    animation-timing-function: linear;
-  }
-  to {
-    top: 800px;
-  }
-}
-
-
-/*---------------29---------------*/
-#button-29 {
-  background-color: #ffffff;
-}
-
-#shake:active {
-  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
-  transform: translate3d(0, 0, 0);
-  backface-visibility: hidden;
-  perspective: 1000px;
-}
-
-@keyframes shake {
-  10%, 90% {
-    transform: translate3d(-1px, 0, 0);
-    transform: translate(-50%, -50%);
   }
 
-  20%, 80% {
-    transform: translate3d(2px, 0, 0);
-    transform: translate(-50%, -50%);
+  /*---------------28---------------*/
+  #button-28 {
+    background-color: #ffffff;
   }
 
-  30%, 50%, 70% {
-    transform: translate3d(-4px, 0, 0);
-    transform: translate(-50%, -50%);
+  #vibr:active {
+    animation: fluidDrop 2s infinite alternate;
   }
 
-  40%, 60% {
-    transform: translate3d(4px, 0, 0);
-    transform: translate(-50%, -50%);
+  @keyframes fluidDrop {
+    from {
+      /* top: 0px; */
+      animation-timing-function: cubic-bezier(0.7, 0.22, 0.725, 0.61);
+    }
+    13.33% {
+      top: 31.79px;
+      animation-timing-function: cubic-bezier(0.16, 0.1875, 0.24, 0.094);
+    }
+    23.66% {
+      top: 88.3px;
+      animation-timing-function: cubic-bezier(0.234, 0.15, 0.88, 0.85);
+    }
+    65% {
+      top: 441.5px;
+      animation-timing-function: linear;
+    }
+    to {
+      top: 800px;
+    }
   }
-}
 
 
-/*---------------30---------------*/
-#button-30 {
-  background-color: #00bcd4;
-}
+  /*---------------29---------------*/
+  #button-29 {
+    background-color: #ffffff;
+  }
 
-#squareCircle {
-  background: coral;
-}
+  #shake:active {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0) translate(-50%, -50%);
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
 
-#squareCircle:active {
-  background-color: coral;
-  -webkit-animation: squareToCircle 1s infinite alternate;
-}
+  @keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0) translate(-50%, -50%);
+    }
 
-@-webkit-keyframes squareToCircle {
-  0% {
-    border-radius: 0 0 0 0;
+    20%, 80% {
+      transform: translate3d(2px, 0, 0) translate(-50%, -50%);
+    }
+
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0) translate(-50%, -50%);
+    }
+
+    40%, 60% {
+      transform: translate3d(4px, 0, 0) translate(-50%, -50%);
+    }
+  }
+
+
+  /*---------------30---------------*/
+  #button-30 {
+    background-color: #00bcd4;
+  }
+
+  #squareCircle {
     background: coral;
   }
-  25% {
-    border-radius: 50% 0 0 0;
-    background: darksalmon;
-  }
-  50% {
-    border-radius: 50% 50% 0 0;
-    background: indianred;
-  }
-  75% {
-    border-radius: 50% 50% 50% 0;
-    background: lightcoral;
-  }
-  100% {
-    border-radius: 50% 50% 50% 50%;
-    background: darksalmon;
-  }
-}
 
-
-/*---------------31---------------*/
-#button-31 {
-  background-image: url("img/jeellyfish.png");
-  background-size: cover;
-}
-
-#ag iframe {
-  border: none;
-  width: 100%;
-  height: 100%;
-  display: none;
-}
-
-.exit {
-  font-size: 30px;
-  left: 30px;
-  top: 80%;
-}
-
-#jeellyFish {
-  display: none;
-  transform: scale(0.75);
-  border: 3px solid #d8e992;
-}
-
-/*---------------32---------------*/
-#button-32 {
-  background-color: #222;
-
-}
-
-#button-32 .circle {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  background: whiteSmoke;
-  box-shadow: 4px -40px 60px 5px rgb(26, 117, 206) inset;
-}
-
-#loader {
-  background: linear-gradient(to right, rgb(22, 113, 202) 50%, transparent 50%);
-}
-
-#loader:active {
-  animation: spin 1s infinite linear;
-}
-
-#loader:before {
-  display: block;
-  content: '';
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 90px;
-  height: 90px;
-  background: #222;
-  border-radius: 50%;
-}
-
-@keyframes spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
-
-/* #loaderCell {
-transform: translate(-10%, -10%);
-} */
-
-/*---------------33---------------*/
-#button-33 {
-  background-color: #f44336;
-}
-
-#button-33 .circle {
-  background-color: white;
-}
-
-#flash:active {
-  animation: flash 500ms ease infinite alternate;
-}
-@keyframes flash {
-  from { opacity: 1; }
-  to { opacity: 0; }
-}
-
-/*---------------34---------------*/
-#button-34 {
-  background-color: #ff9800;
-}
-
-/* #button-34 div {
-  transform: translate(-12.5%, 25%);
-} */
-
-#button-34 .circle {
-  background-color: white;
-  transform: none;
-}
-
-#pulse:active {
-  animation: pulse 1s infinite ease-in-out alternate;
-}
-
-@keyframes pulse {
-  from { transform: scale(0.8); }
-  to { transform: scale(1.2); }
-}
-
-/*---------------35---------------*/
-#button-35 {
-  background-color: #ffeb3b;
-}
-
-#button-35 .circle {
-  background-color: white;
-}
-
-#fade-out:active {
-  animation: fade-out 2s linear infinite;
-}
-
-@keyframes fade-out {
-  from { opacity: 1; }
-  to { opacity: 0; }
-}
-
-/*---------------36---------------*/
-#button-36 {
-  background-color: #cddc39;
-}
-
-#button-36 .circle {
-  background-color: white;
-}
-
-#bounce2:active {
-  animation: bounce2 2s ease infinite;
-}
-@keyframes bounce2 {
-  0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
-  40% {transform: translateY(-30px);}
-  60% {transform: translateY(-15px);}
-}
-
-/*---------------37---------------*/
-#button-37 {
-  background-color: #8bc34a;
-}
-
-#button-37 .circle {
-  background-color: white;
-}
-
-#swing:active {
-  transform-origin: top center;
-  animation: swing 2s ease infinite;
-}
-@keyframes swing {
-  20% { transform: rotate(15deg); }
-  40% { transform: rotate(-10deg); }
-  60% { transform: rotate(5deg); }
-  80% { transform: rotate(-5deg); }
-  100% { transform: rotate(0deg); }
-}
-
-/*---------------38---------------*/
-#button-38 {
-  background-color: #4caf50;
-}
-
-#button-38 .circle {
-  background-color: white;
-}
-
-#wobble:active {
-  animation: wobble 2s ease infinite;
-}
-@keyframes wobble {
-  0% { transform: translateX(0%); }
-  15% { transform: translateX(-25%) rotate(-5deg); }
-  30% { transform: translateX(20%) rotate(3deg); }
-  45% { transform: translateX(-15%) rotate(-3deg); }
-  60% { transform: translateX(10%) rotate(2deg); }
-  75% { transform: translateX(-5%) rotate(-1deg); }
-  100% { transform: translateX(0%); }
-}
-
-/*---------------39---------------*/
-#button-39 {
-  background-color: #009688;
-}
-
-#button-39 .circle {
-  background-color: white;
-}
-
-#bounce-out:active {
-  animation: bounce-out 2s ease infinite;
-}
-@keyframes bounce-out {
-  0% { transform: scale(1); }
-  25% { transform: scale(.95); }
-  50% {
-    opacity: 1;
-    transform: scale(1.1);
-  }
-  100% {
-    opacity: 0;
-    transform: scale(.3);
-  }
-}
-
-
-/*---------------40---------------*/
-#button-40 {
-  background-color: #00bcd4;
-}
-
-#button-40 .circle {
-  background-color: white;
-}
-
-#roll-out:active {
-  animation: roll-out 2s ease infinite;
-}
-@keyframes roll-out {
-  0% {
-    opacity: 1;
-    transform: translateX(0px) rotate(0deg);
-  }
-  100% {
-    opacity: 0;
-    transform: translateX(100%) rotate(120deg);
-  }
-}
-
-/*---------------41---------------*/
-#button-41 {
-  background-color: #03a9f4;
-}
-
-#button-41 .circle {
-  background-color: white;
-}
-
-#bounce-out-down:active {
-  animation: bounce-out-down 2s ease infinite;
-}
-@keyframes bounce-out-down {
-  0% { transform: translateY(0); }
-  20% {
-    opacity: 1;
-    transform: translateY(-20px);
-  }
-  100% {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-}
-
-/*---------------42---------------*/
-#button-42 {
-  background-color: #ff5722;
-}
-
-
-#sticker {
-  position:absolute;
-  background-color: #11bcd3;
-  animation: spin 10s linear infinite;
-  animation-play-state: paused;
-}
-
-#sticker:active {
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/13034/sticker.png) top center no-repeat;
-  background-size: contain;
-  animation-play-state: running;
-}
-
-@keyframes spin {
-  100% {transform: rotate(1turn); }
-}
-
-/*---------------43---------------*/
-#button-43 {
-  background-color: #ffffff;
-
-}
-
-#ocean{
-  position:absolute;
-  width:100%;
-  min-height:100%;
-  background: -webkit-gradient(linear,
-    left bottom,
-    left top,
-    color-stop(0, rgb(0,50,150)),
-    color-stop(0.50, rgb(0,150,255))
-    );
+  #squareCircle:active {
+    background-color: coral;
+    -webkit-animation: squareToCircle 1s infinite alternate;
   }
 
-  .wave{
-    background:#a8e3ff;
-    display:inline-block;
-    height:60%;
-    width:10px;
-    position:absolute;
-    -webkit-animation-name:             dostuff;
-    -webkit-animation-duration:         3s;
-    -webkit-animation-iteration-count:  infinite;
-    -webkit-transition-timing-function: ease-in-out;
-  }
-
-
-  @-webkit-keyframes dostuff{
-    0%{
-      height:60%;
+  @-webkit-keyframes squareToCircle {
+    0% {
+      border-radius: 0 0 0 0;
+      background: coral;
     }
-    50%{
-      height:40%;
+    25% {
+      border-radius: 50% 0 0 0;
+      background: darksalmon;
     }
-    100%{
-      height:60%;
+    50% {
+      border-radius: 50% 50% 0 0;
+      background: indianred;
+    }
+    75% {
+      border-radius: 50% 50% 50% 0;
+      background: lightcoral;
+    }
+    100% {
+      border-radius: 50% 50% 50% 50%;
+      background: darksalmon;
     }
   }
 
 
-  /*---------------44---------------*/
-  #button-44 {
-    background-color: #ffffff;
+  /*---------------31---------------*/
+  #button-31 {
+    background-image: url("img/jeellyfish.png");
+    background-size: cover;
+  }
+
+  #ag iframe {
+    border: none;
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+
+  .exit {
+    font-size: 30px;
+    left: 30px;
+    top: 80%;
+  }
+
+  #jeellyFish {
+    display: none;
+    transform: scale(0.75);
+    border: 3px solid #d8e992;
+  }
+
+  /*---------------32---------------*/
+  #button-32 {
+    background-color: #222;
 
   }
 
-  .like {
+  #button-32 .circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: whiteSmoke;
+    box-shadow: 4px -40px 60px 5px rgb(26, 117, 206) inset;
+  }
+
+  #loader {
+    background: linear-gradient(to right, rgb(22, 113, 202) 50%, transparent 50%);
+  }
+
+  #loader:active {
+    animation: spin 1s infinite linear;
+  }
+
+  #loader:before {
     display: block;
-    width: 110px;
-    height: 110px;
-    margin:0 auto;
-    transform: translate(0, 50%);
-    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/349115/like_animation.png) 0 0 no-repeat;
-    background-size: 3000%;
-    animation: like-gif steps(28) 1s infinite both;
+    content: '';
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90px;
+    height: 90px;
+    background: #222;
+    border-radius: 50%;
   }
-  .pause {
+
+  @keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+
+  /* #loaderCell {
+  transform: translate(-10%, -10%);
+  } */
+
+  /*---------------33---------------*/
+  #button-33 {
+    background-color: #f44336;
+  }
+
+  #button-33 .circle {
+    background-color: white;
+  }
+
+  #flash:active {
+    animation: flash 500ms ease infinite alternate;
+  }
+  @keyframes flash {
+    from { opacity: 1; }
+    to { opacity: 0; }
+  }
+
+  /*---------------34---------------*/
+  #button-34 {
+    background-color: #ff9800;
+  }
+
+  #button-34 .circle {
+    background-color: white;
+    position:absolute;
+  }
+
+  #pulse:active {
+    animation: pulse 1s infinite ease-in-out alternate;
+  }
+
+  @keyframes pulse {
+    from { transform: translate(-50%, -50%) scale(0.8);
+    }
+    to { transform: translate(-50%, -50%) scale(1.2);
+    }
+  }
+
+  /*---------------35---------------*/
+  #button-35 {
+    background-color: #ffeb3b;
+  }
+
+  #button-35 .circle {
+    background-color: white;
+  }
+
+  #fade-out:active {
+    animation: fade-out 2s linear infinite;
+  }
+
+  @keyframes fade-out {
+    from { opacity: 1; }
+    to { opacity: 0; }
+  }
+
+  /*---------------36---------------*/
+  #button-36 {
+    background-color: #cddc39;
+  }
+
+  #button-36 .circle {
+    background-color: white;
+  }
+
+  #bounce2:active {
+    animation: bounce2 2s ease infinite;
+  }
+  @keyframes bounce2 {
+    0%, 20%, 50%, 80%, 100% {transform: translate(-50%, -50%);}
+    40% {transform: translate(-50%, -70%);}
+    60% {transform: translate(-50%, -60%);}
+  }
+
+  /*---------------37---------------*/
+  #button-37 {
+    background-color: #8bc34a;
+  }
+
+  #button-37 .circle {
+    background-color: white;
+  }
+
+  #swing:active {
+    transform-origin: top center;
+    animation: swing 2s ease infinite;
+  }
+  @keyframes swing {
+    20% { transform: translate(-50%, -50%) rotate(15deg); }
+    40% { transform: translate(-50%, -50%) rotate(-10deg); }
+    60% { transform: translate(-50%, -50%) rotate(5deg); }
+    80% { transform: translate(-50%, -50%) rotate(-5deg); }
+    100% { transform: translate(-50%, -50%) rotate(0deg); }
+  }
+
+  /*---------------38---------------*/
+  #button-38 {
+    background-color: #4caf50;
+  }
+
+  #button-38 .circle {
+    background-color: white;
+  }
+
+  #wobble:active {
+    animation: wobble 2s ease infinite;
+  }
+  @keyframes wobble {
+    0% { transform: translate(-50%, -50%); }
+    15% { transform: translate(-75%, -50%) rotate(-5deg); }
+    30% { transform: translate(-30%, -50%)rotate(3deg); }
+    45% { transform: translate(-65%, -50%) rotate(-3deg); }
+    60% { transform: translate(-40%, -50%) rotate(2deg); }
+    75% { transform: translate(-55%, -50%) rotate(-1deg); }
+    100% { transform: translate(-50%, -50%); }
+  }
+
+  /*---------------39---------------*/
+  #button-39 {
+    background-color: #009688;
+  }
+
+  #button-39 .circle {
+    background-color: white;
+  }
+
+  #bounce-out:active {
+    animation: bounce-out 2s ease infinite;
+  }
+  @keyframes bounce-out {
+    0% { transform: translate(-50%, -50%) scale(1); }
+    25% { transform: translate(-50%, -50%) scale(.95); }
+    50% {
+      opacity: 1;
+      transform: translate(-50%, -50%) scale(1.1);
+    }
+    100% {
+      opacity: 0;
+      transform: translate(-50%, -50%) scale(.3);
+    }
+  }
+
+
+  /*---------------40---------------*/
+  #button-40 {
+    background-color: #00bcd4;
+  }
+
+  #button-40 .circle {
+    background-color: white;
+  }
+
+  #roll-out:active {
+    animation: roll-out 2s ease infinite;
+  }
+  @keyframes roll-out {
+    0% {
+      opacity: 1;
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+      opacity: 0;
+      transform: translate(50%, -50%) rotate(120deg);
+    }
+  }
+
+  /*---------------41---------------*/
+  #button-41 {
+    background-color: #03a9f4;
+  }
+
+  #button-41 .circle {
+    background-color: white;
+  }
+
+  #bounce-out-down:active {
+    animation: bounce-out-down 2s ease infinite;
+  }
+  @keyframes bounce-out-down {
+    0% { transform: translate(-50%, -50%); }
+    20% {
+      opacity: 1;
+      transform: translate(-50%, -70%);
+    }
+    100% {
+      opacity: 0;
+      transform: translate(-50%, -30%);
+    }
+  }
+
+  /*---------------42---------------*/
+  #button-42 {
+    background-color: #ff5722;
+  }
+
+
+  #sticker {
+    position:absolute;
+    background-color: #11bcd3;
+    animation: spin 10s linear infinite;
     animation-play-state: paused;
   }
 
-  @keyframes like-gif {
-    0% {
-      background-position: 0%;
-    }
-    100% {
-      background-position: 100%;
-    }
+  #sticker:active {
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/13034/sticker.png) top center no-repeat;
+    background-size: contain;
+    animation-play-state: running;
   }
 
-  /*---------------45---------------*/
-  #button-45 {
-    background-color: #3090A1;
+  @keyframes spin {
+    from {transform: translate(-50%, -50%) rotateZ(0deg);}
+    to {transform: translate(-50%, -50%) rotateZ(360deg);}
   }
 
-  /*
-  This is the outer svg wrapper that the SVG itself will
-  fill. Multiple svg-wrapper classes can be put side by side.
-  */
-
-  .svg-wrapper {
-    /* margin-top: 0; */
-    position: relative;
-    transform: translate(0, 200%);
-    width: 150px;
-    /*make sure to use same height/width as in the html*/
-    height: 40px;
-    display: inline-block;
-    border-radius: 3px;
-    margin-left: 5px;
-    margin-right: 5px
-
-  }
-  /*
-  This is where we define the fill, color, thickness,
-  and stroke pattern of the SVG when there is no hover.
-  The dasharray and offset together define the line position
-  under the words. Here's also where the transition speed is set.
-  */
-
-  #shape {
-    stroke-width: 6px;
-    fill: transparent;
-    stroke: #FEF8E6;
-    stroke-dasharray: 85 400;
-    stroke-dashoffset: -220;
-    transition: 1s all ease;
-  }
-  /*
-  Pushing the text up into the SVG. Without this the
-  text would be below the div's.
-  */
-
-  #text {
-    margin-top: -35px;
-    text-align: center;
-    font-family: Helvetica;
-  }
-
-  #text a {
-    color: white;
-    text-decoration: none;
-    font-weight: 100;
-    font-size: 1.1em;
-  }
-  /*
-  Changing the shape on hover. I change the color of the stroke,
-  make it thinner, then set it to again wrap around the entire parent element.
-  */
-
-  .svg-wrapper:hover #shape {
-    stroke-dasharray: 50 0;
-    stroke-width: 6px;
-    stroke-dashoffset: 0;
-    stroke: #BC5148;
-  }
-
-  /*---------------46---------------*/
-  #button-46 {
-    background-color: #F6F6F6;
-  }
-
-  #normalBlue{
-    font-family: Helvetica;
-    text-align:center;
-    margin:170px auto;
-    padding: 10px 0px;
-    display:block;
-    height:30px;
-    width:175px;
-
-    cursor:pointer;
-    font-size:25px;
-    color:#F0F0F0;
-    border-radius:10px;
-    border-bottom:4px solid #0045A6;
-    box-shadow: 6px 6px 6px #999;
-
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    -o-user-select: none;
-    user-select: none;
-
-    background: -webkit-linear-gradient(#00C8F8, #0067F7);
-    background: -o-linear-gradient(#00C8F8, #0067F7);
-    background: -moz-linear-gradient(#00C8F8, #0067F7);
-    background: linear-gradient(#00C8F8, #0067F7);
-
-    -webkit-transition: background 0.05s linear;
-    -moz-transition: background 0.05s linear;
-    -o-transition: background 0.05s linear;
-    transition: background 0.05s linear;
-
-    background-size:1px 200px;
-
-    transition: all .05s linear;
-  }
-
-  #normalBlue:hover{
-    background-position:100px;
-  }
-
-  #normalBlue:active {
-    box-shadow: 2px 2px 2px #777;
-    border-bottom:1px solid #0045A6;
-    transform: translateY(3px);
-  }
-
-
-  /*---------------47---------------*/
-  #button-47 {
-    background-color: #FFE2E2;
-  }
-
-  .highlight .button {
-    font-family: Helvetica;
-    display: inline-block;
-    color: #fff;
-    background: #8785A2;
-    margin: 20px;
-    width: 130px;
-    height: 40px;
-    line-height: 40px;
-    border-radius: 10px;
-    position: relative;
-    overflow: hidden;
-    transform: translate(0, 200%);
-  }
-
-  .highlight .button:before {
-    content: "";
-    position: absolute;
-    top: -30px;
-    left: -80px;
-    height: 100px;
-    width: 70px;
-    background: rgba(255, 255, 255, .7);
-    transform: rotate(20deg);
-  }
-
-  .highlight .button:hover:before {
-    left: 150px;
-    transition: all .5s;
-  }
-  .highlight {margin-bottom:100px;}
-
-  /*---------------48---------------*/
-  #button-48 {
+  /*---------------43---------------*/
+  #button-43 {
     background-color: #ffffff;
-    padding: 50px;
-  }
-
-  .animate{
-    transition: all 0.1s;
-    -webkit-transition: all 0.1s;
-  }
-
-  .action-button{
-    position: relative;
-    padding: 10px 40px;
-    margin: 0px 10px 10px 0px;
-    float: left;
-    border-radius: 8px;
-    font-family: Helvetica, cursive;
-    font-size: 25px;
-    color: #FFF;
-    text-decoration: none;
-  }
-
-
-  .yellow{
-    background-color: #F2CF66;
-    border-bottom: 5px solid #D1B358;
-    text-shadow: 0px -2px #D1B358;
-  }
-
-  .action-button:active{
-    transform: translate(0px,5px);
-    -webkit-transform: translate(0px,5px);
-    border-bottom: 1px solid;
-  }
-
-  /*---------------49---------------*/
-  #button-49 {
-    background-color: #ffffff;
-    font-family: Lato;
-    font-size: 20px;
-    font-weigt: 400;
-    -webkit-font-smoothing: antialiased;
-    text-align: center;
-    padding: 40px 20px;
-    line-height: 1.2em;
-  }
-
-  @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
-
-  /* starts here */
-  .btn {
-    color: #444;
-    line-height: 1em;
-    color: inherit;
-    text-decoration: none;
-    display: inline-block;
-    margin: 1em;
-    border-radius: 4px;
-    background-color: #fff;
-    box-shadow: 0 0 0 0 #444 inset, 0.3em 0.2em 0 0 #bbb;
-    border: 0.2em solid #444;
-    padding: 0.8em;
-    text-align: center;
-    transition: 0.25s box-shadow, 0.25s -webkit-transform;
-  }
-  .btn-small {
-    padding: 0.7em;
-  }
-  .btn:hover {
-    box-shadow: 0 4em 0 0 #444 inset, 0em 0em 0 0 #bbb;
-    -webkit-transform: translate(0.3em, 0.2em);
-    color: #fff;
-  }
-  .btn.disabled {
-    opacity: 0.8;
-  }
-  .btn.disabled:hover {
-    box-shadow: 0 0 0 0 #444 inset, 0.3em 0.2em 0 0 #bbb;
-    -webkit-transform: translate(0, 0);
-    color: #444;
-  }
-  /* ends here */
-  .heavy {
-    font-weight: 700;
-  }
-  .extraheavy {
-    font-weight: 900;
-  }
-  .light {
-    font-weight: 300;
-  }
-
-
-  /*---------------50---------------*/
-  #button-50 {
-    background:#055388;
-  }
-
-  @import url(https://fonts.googleapis.com/css?family=Open+Sans:700);
-
-  #bye {
-    transform: none;
-    height: 30px;
-    background:#055388;
-    border:1px solid white;
-    padding:20px;
-    font-size:0.9em;
-    color:white;
-    box-shadow:4px 4px 0px 0px white;
-    font-family: 'Open Sans', sans-serif;
-    font-weight:700;
-    letter-spacing:5px;
-    text-transform:uppercase;
 
   }
 
-  #bye:hover {
-    left:4px;
-    top:4px;
-    box-shadow:none;
-    transition: all .4s ease-in-out;
-    -moz-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
-  }
+  #ocean{
+    position:absolute;
+    width:100%;
+    min-height:100%;
+    background: -webkit-gradient(linear,
+      left bottom,
+      left top,
+      color-stop(0, rgb(0,50,150)),
+      color-stop(0.50, rgb(0,150,255))
+      );
+    }
+
+    .wave{
+      background:#a8e3ff;
+      display:inline-block;
+      height:60%;
+      width:10px;
+      position:absolute;
+      -webkit-animation-name:             dostuff;
+      -webkit-animation-duration:         3s;
+      -webkit-animation-iteration-count:  infinite;
+      -webkit-transition-timing-function: ease-in-out;
+    }
+
+
+    @-webkit-keyframes dostuff{
+      0%{
+        height:60%;
+      }
+      50%{
+        height:40%;
+      }
+      100%{
+        height:60%;
+      }
+    }
+
+
+    /*---------------44---------------*/
+    #button-44 {
+      background-color: #ffffff;
+
+    }
+
+    .like {
+      display: block;
+      width: 110px;
+      height: 110px;
+      margin:0 auto;
+      transform: translate(0, 50%);
+      background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/349115/like_animation.png) 0 0 no-repeat;
+      background-size: 3000%;
+      animation: like-gif steps(28) 1s infinite both;
+    }
+    .pause {
+      animation-play-state: paused;
+    }
+
+    @keyframes like-gif {
+      0% {
+        background-position: 0%;
+      }
+      100% {
+        background-position: 100%;
+      }
+    }
+
+    /*---------------45---------------*/
+    #button-45 {
+      background-color: #3090A1;
+    }
+
+    /*
+    This is the outer svg wrapper that the SVG itself will
+    fill. Multiple svg-wrapper classes can be put side by side.
+    */
+
+    .svg-wrapper {
+      /* margin-top: 0; */
+      position: relative;
+      transform: translate(0, 200%);
+      width: 150px;
+      /*make sure to use same height/width as in the html*/
+      height: 40px;
+      display: inline-block;
+      border-radius: 3px;
+      margin-left: 5px;
+      margin-right: 5px
+
+    }
+    /*
+    This is where we define the fill, color, thickness,
+    and stroke pattern of the SVG when there is no hover.
+    The dasharray and offset together define the line position
+    under the words. Here's also where the transition speed is set.
+    */
+
+    #shape {
+      stroke-width: 6px;
+      fill: transparent;
+      stroke: #FEF8E6;
+      stroke-dasharray: 85 400;
+      stroke-dashoffset: -220;
+      transition: 1s all ease;
+    }
+    /*
+    Pushing the text up into the SVG. Without this the
+    text would be below the div's.
+    */
+
+    #text {
+      margin-top: -35px;
+      text-align: center;
+      font-family: Helvetica;
+    }
+
+    #text a {
+      color: white;
+      text-decoration: none;
+      font-weight: 100;
+      font-size: 1.1em;
+    }
+    /*
+    Changing the shape on hover. I change the color of the stroke,
+    make it thinner, then set it to again wrap around the entire parent element.
+    */
+
+    .svg-wrapper:hover #shape {
+      stroke-dasharray: 50 0;
+      stroke-width: 6px;
+      stroke-dashoffset: 0;
+      stroke: #BC5148;
+    }
+
+    /*---------------46---------------*/
+    #button-46 {
+      background-color: #F6F6F6;
+    }
+
+    #normalBlue{
+      font-family: Helvetica;
+      text-align:center;
+      top: 50%;
+      margin:auto;
+      padding: 10px 0px;
+      display:block;
+      height:30px;
+      width:175px;
+
+      cursor:pointer;
+      font-size:25px;
+      color:#F0F0F0;
+      border-radius:10px;
+      border-bottom:4px solid #0045A6;
+      box-shadow: 6px 6px 6px #999;
+
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      -o-user-select: none;
+      user-select: none;
+
+      background: -webkit-linear-gradient(#00C8F8, #0067F7);
+      background: -o-linear-gradient(#00C8F8, #0067F7);
+      background: -moz-linear-gradient(#00C8F8, #0067F7);
+      background: linear-gradient(#00C8F8, #0067F7);
+
+      -webkit-transition: background 0.05s linear;
+      -moz-transition: background 0.05s linear;
+      -o-transition: background 0.05s linear;
+      transition: background 0.05s linear;
+
+      background-size:1px 200px;
+
+      transition: all .05s linear;
+    }
+
+    #normalBlue:hover{
+      background-position:100px;
+    }
+
+    #normalBlue:active {
+      box-shadow: 2px 2px 2px #777;
+      border-bottom:1px solid #0045A6;
+
+    }
+
+
+    /*---------------47---------------*/
+    #button-47 {
+      background-color: #FFE2E2;
+    }
+
+    .highlight .button {
+      font-family: Helvetica;
+      display: inline-block;
+      color: #fff;
+      background: #8785A2;
+      margin: 20px;
+      width: 130px;
+      height: 40px;
+      line-height: 40px;
+      border-radius: 10px;
+      position: relative;
+      overflow: hidden;
+      transform: translate(0, 200%);
+    }
+
+    .highlight .button:before {
+      content: "";
+      position: absolute;
+      top: -30px;
+      left: -80px;
+      height: 100px;
+      width: 70px;
+      background: rgba(255, 255, 255, .7);
+      transform: rotate(20deg);
+    }
+
+    .highlight .button:hover:before {
+      left: 150px;
+      transition: all .5s;
+    }
+    .highlight {margin-bottom:100px;}
+
+    /*---------------48---------------*/
+    #button-48 {
+      background-color: #ffffff;
+      padding: 50px;
+    }
+
+    .animate{
+      transition: all 0.1s;
+      -webkit-transition: all 0.1s;
+    }
+
+    .action-button{
+      position: relative;
+      padding: 10px 40px;
+      margin: 0px 10px 10px 0px;
+      float: left;
+      border-radius: 8px;
+      font-family: Helvetica, cursive;
+      font-size: 25px;
+      color: #FFF;
+      text-decoration: none;
+    }
+
+
+    .yellow{
+      background-color: #F2CF66;
+      border-bottom: 5px solid #D1B358;
+      text-shadow: 0px -2px #D1B358;
+    }
+
+    .action-button:active{
+      transform: translate(0px,5px);
+      -webkit-transform: translate(0px,5px);
+      border-bottom: 1px solid;
+    }
+
+    /*---------------49---------------*/
+    #button-49 {
+      background-color: #ffffff;
+      font-family: Lato;
+      font-size: 20px;
+      font-weigt: 400;
+      -webkit-font-smoothing: antialiased;
+      text-align: center;
+      padding: 40px 20px;
+      line-height: 1.2em;
+    }
+
+    @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+
+    /* starts here */
+    .btn {
+      color: #444;
+      line-height: 1em;
+      color: inherit;
+      text-decoration: none;
+      display: inline-block;
+      margin: 1em;
+      border-radius: 4px;
+      background-color: #fff;
+      box-shadow: 0 0 0 0 #444 inset, 0.3em 0.2em 0 0 #bbb;
+      border: 0.2em solid #444;
+      padding: 0.8em;
+      text-align: center;
+      transition: 0.25s box-shadow, 0.25s -webkit-transform;
+    }
+    .btn-small {
+      padding: 0.7em;
+    }
+    .btn:hover {
+      box-shadow: 0 4em 0 0 #444 inset, 0em 0em 0 0 #bbb;
+      -webkit-transform: translate(0.3em, 0.2em);
+      color: #fff;
+    }
+    .btn.disabled {
+      opacity: 0.8;
+    }
+    .btn.disabled:hover {
+      box-shadow: 0 0 0 0 #444 inset, 0.3em 0.2em 0 0 #bbb;
+      -webkit-transform: translate(0, 0);
+      color: #444;
+    }
+    /* ends here */
+    .heavy {
+      font-weight: 700;
+    }
+    .extraheavy {
+      font-weight: 900;
+    }
+    .light {
+      font-weight: 300;
+    }
+
+
+    /*---------------50---------------*/
+    #button-50 {
+      background:#055388;
+    }
+
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans:700);
+
+    #bye {
+      transform: none;
+      height: 30px;
+      background:#055388;
+      border:1px solid white;
+      padding:20px;
+      font-size:0.9em;
+      color:white;
+      box-shadow:4px 4px 0px 0px white;
+      font-family: 'Open Sans', sans-serif;
+      font-weight:700;
+      letter-spacing:5px;
+      text-transform:uppercase;
+
+    }
+
+    #bye:hover {
+      left:4px;
+      top:4px;
+      box-shadow:none;
+      transition: all .4s ease-in-out;
+      -moz-transition: all .4s ease-in-out;
+      -webkit-transition: all .4s ease-in-out;
+    }

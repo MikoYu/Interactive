@@ -42,5 +42,5 @@ body {
   border: #000000;
   border-width: medium;
   opacity: 20%;
-  background-blend-mode: multiply;
+  mix-blend-mode: multiply;
 }

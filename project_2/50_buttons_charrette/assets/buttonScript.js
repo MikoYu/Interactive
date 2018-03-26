@@ -297,7 +297,11 @@ $(document).ready(function(){
       var bgColor = prompt("Please enter a color", "lightblue");
       $("#button-27>div").css('background-color', "bgColor.valueOf()");
       console.log(bgColor.valueOf());
-      $("#button-27>div").css('animation-play-state', 'paused');
+      $("#button-27>div").css({
+        'animation-play-state': 'paused',
+        'display': 'none'
+      });
+      $(this).css("background", bgColor.valueOf());
       ac == false;
     }
     else {
