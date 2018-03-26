@@ -1,0 +1,46 @@
+body {
+  background-color: #000000;
+  color: #ffffff;
+  cursor: none;
+  padding: 50px;
+}
+
+#page {
+  width: vw;
+  height: vh;
+}
+
+#text1, #text2 {
+  width: 1000px;
+  height: 500px;
+
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+}
+
+#text1 p, #text2 p{
+  font-family: 'Bowlby One SC', cursive;
+  font-size: 200pt;
+
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+
+  mix-blend-mode: multiply;
+}
+
+.spot {
+  position: absolute;
+  background: #ffffff;
+  border-radius: 50%;
+  border: #000000;
+  border-width: medium;
+  opacity: 20%;
+  background-blend-mode: multiply;
+}

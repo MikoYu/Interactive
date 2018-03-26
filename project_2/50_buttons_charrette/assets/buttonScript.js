@@ -295,7 +295,8 @@ $(document).ready(function(){
   $("#button-27").click(function(){
     if (ac == true) {
       var bgColor = prompt("Please enter a color", "lightblue");
-      $("#button-27>div").css('background-color', "str.valueOf(bgColor)");
+      $("#button-27>div").css('background-color', "bgColor.valueOf()");
+      console.log(bgColor.valueOf());
       $("#button-27>div").css('animation-play-state', 'paused');
       ac == false;
     }
