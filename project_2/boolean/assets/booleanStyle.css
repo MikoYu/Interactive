@@ -35,6 +35,18 @@ body {
   mix-blend-mode: multiply;
 }
 
+#spots1, #spots2 {
+  animation: spin 100s linear infinite;
+  animation-play-state: paused;
+  transform-origin: center;
+
+  position: absolute;
+
+  height: 100vh;
+  width: 100vw;
+
+}
+
 .spot {
   position: absolute;
   background: #ffffff;
@@ -43,4 +55,12 @@ body {
   border-width: medium;
   opacity: 20%;
   mix-blend-mode: multiply;
+
+
+}
+
+
+@keyframes spin {
+  from {transform: rotateZ(0deg);}
+  to {transform: rotateZ(360deg);}
 }
