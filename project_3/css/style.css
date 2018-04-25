@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #FFF3F3;
+  font-family: 'Vollkorn', serif;
+  font-weight: 400;
+  font-size: 21px;
+  color: #444458;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+#wrapper {
+  /* height:15000px; //change this in the end; but it affects positions of layer 3??? */
+  position:relative;
+}
+
+.parallax_text{ position:absolute;}
+.parallax_block{ position:absolute;}
+
+/* ------------ layer 1: title ------------ */
+#title-page-block {
+  height: 100vh;
+  border: 1px;
+  text-align: center;
+}
+
+#title-page {
+  padding: 40vh 0;
+  text-align: center;
+  margin: auto;
+
+  /* parallax */
+  /* may adjust left */
+  position: fixed;
+  left: 40%;
+  top: 0px;
+  z-index:3;
+}
+
+.title {
+  font-style: italic;
+  font-size: 27px;
+  background-color: #FFF3F3;
+}
+
+/* ------------ layer 2: reality ------------ */
+#content-reality {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40vw;
+  max-width:700px;
+  min-width: 400px;
+  z-index: 1;
+}
+
+.ending {font-size: 13px;}
+
+#content-reality div {
+  position: absolute;
+  width: 40vw;
+  max-width:700px;
+  min-width: 400px;
+}
+
+#content-reality div p {margin-top: 20px;}
+
+/* adjustment needed */
+#reality-1 { top: 1000px;}
+#reality-2 { top: 8500px;}
+#reality-3 { top: 14500px;}
+#reality-4 { top: 20000px;}
+#reality-5 { top: 24800px;}
+
+.divider {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.ending {
+  margin-top: 60px;
+  padding-bottom: 40px;
+}
+
+/* ------------ layer 3: flashback ------------ */
+
+.flashback {
+  position: fixed;
+  font-family: 'Neucha', cursive;
+  color: #ffffff;
+  z-index: 2;
+}
+
+.flashback .text {
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  font-family: 'Neucha', cursive;
+  color: #ffffff;
+
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
+#flashback-1 {
+  transform: rotate(-180deg);
+  top: 200px;
+  left: -4725px;
+  height: 400px;
+}
+
+#flashback-2 {
+  top: 300px;
+  left: 5000px;
+  height: 400px;
+}
+
+#flashback-3 {
+  transform: rotate(-200deg);
+  top: 600px;
+  left: 5000px;
+  height: 400px;
+}
+
+#flashback-chunk {
+  position: absolute;
+  font-family: 'Neucha', cursive;
+  color: #ffffff;
+  z-index: 2;
+
+  text-align: center;
+  top: 21400px;
+
+}
+
+/* ------------ layer 4: black blocks ------------ */
+#flashback-background {
+  text-align: center;
+}
+
+#black-block {
+  width: 100vw;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: none;
+  background-color: #000000;
+  /* transform: translateX(-25vw); */
+  /* margin: auto; */
+  z-index: -1;
+
+  position: absolute;
+
+  height: 90vh;
+  top: 2800px;
+}

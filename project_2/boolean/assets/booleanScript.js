@@ -25,9 +25,10 @@ $(document).ready(function(){
     console.log('new spot added');
   }
 
+  // spots start to rotate after 1 min (if no mouse movement)
   // clear all the spots on the screen when the mouse moves
   // also, detect mouse movement, map the movement of the spots to the mouse's
-  var timeout_rotate = window.setTimeout(spinning, 30000);
+  var timeout_rotate = window.setTimeout(spinning, 60000);
   var last_position = {};
   var deltaX = 0;
   var deltaY = 0;
